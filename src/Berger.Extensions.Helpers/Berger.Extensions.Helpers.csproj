@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<Nullable>disable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<TargetFramework>net7.0</TargetFramework>
+		<Company>Berger Information Technology</Company>
+	</PropertyGroup>
+</Project>
