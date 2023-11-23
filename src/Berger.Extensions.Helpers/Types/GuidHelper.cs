@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Berger.Extensions.Helpers
+﻿namespace Berger.Extensions.Helpers
 {
     public static class GuidHelper
     {
