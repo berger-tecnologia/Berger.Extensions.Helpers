@@ -2,7 +2,7 @@
 {
     public static class PercentageHelper
     {
-        public static decimal Calculate(decimal total, decimal sold)
+        public static decimal Calculate(this decimal total, decimal sold)
         {
             var sum = total + sold;
 
