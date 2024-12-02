@@ -9,6 +9,12 @@ namespace Berger.Extensions.Helpers
         {
             return (T)Enum.Parse(typeof(T), value, true);
         }
+        public static T ToEnum<T>(this int value)
+        {
+            var name = Enum.GetName(typeof(T), value);
+
+            return name.ToEnum<T>();
+        }
         public static T ToEnum<T>(this string value, T defaultValue)
         {
             if (!Enum.IsDefined(typeof(T), value))
